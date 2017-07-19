@@ -1,0 +1,155 @@
+2017-06-20 09:41:31,058 [Thread-2:5712] [blog.views:14] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 13:55:01,694 [Thread-2:7236] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 13:56:16,164 [Thread-2:7852] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 13:57:02,279 [Thread-8:6176] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 13:57:53,871 [Thread-2:7032] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 13:59:55,286 [Thread-2:8764] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:33:19,092 [Thread-12:9480] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:33:57,993 [Thread-19:8300] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:33:59,645 [Thread-2:7880] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:34:01,121 [Thread-5:9560] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:37:01,608 [Thread-11:8436] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:37:04,648 [Thread-14:6492] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:37:11,677 [Thread-17:8656] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 14:37:17,036 [Thread-20:8416] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-20 18:17:29,779 [Thread-2:16220] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-21 09:56:30,216 [Thread-2:7128] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-21 09:57:23,260 [Thread-43:6880] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-21 14:29:33,155 [Thread-2:10380] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 09:17:51,326 [Thread-2:5472] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 09:53:39,197 [Thread-2:5892] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 10:03:36,394 [Thread-2:6484] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 10:54:02,155 [Thread-8:8220] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 10:57:01,707 [Thread-2:6020] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 12:09:37,128 [Thread-2:7992] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 15:01:43,907 [Thread-19:12592] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:17:18,180 [Thread-2:15860] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:19:00,788 [Thread-3:13476] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:20:48,486 [Thread-2:16100] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:23:27,118 [Thread-14:16856] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:24:59,551 [Thread-10:17164] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:40:06,105 [Thread-2:17196] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 16:41:12,188 [Thread-2:14888] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 17:18:49,979 [Thread-2:17068] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-22 19:34:57,194 [Thread-21:24188] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 09:34:49,795 [Thread-2:3628] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 09:59:00,187 [Thread-2:7048] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:38:44,394 [Thread-54:8980] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:51:01,885 [Thread-62:9140] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:51:57,542 [Thread-2:5360] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:52:03,571 [Thread-8:7620] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:56:08,790 [Thread-14:5924] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:56:10,516 [Thread-20:4252] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:56:11,584 [Thread-23:8204] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-23 15:56:12,730 [Thread-26:9228] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-26 09:46:29,394 [Thread-8:5504] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-26 09:50:27,328 [Thread-2:3220] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-26 09:50:58,598 [Thread-10:4556] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-26 09:51:00,576 [Thread-2:4148] [blog.views:22] [views:index] [ERROR]- [Errno 2] No such file or directory: u'sss.txt'
+2017-06-27 13:44:34,887 [Thread-2:11836] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 13:45:41,894 [Thread-2:11896] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 13:45:48,831 [Thread-28:10340] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 13:46:17,246 [Thread-34:12024] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 13:46:23,242 [Thread-40:11932] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 13:51:56,180 [Thread-2:11568] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:32:02,098 [Thread-8:11432] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:32:18,647 [Thread-13:12028] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:32:47,329 [Thread-15:12240] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:32:49,411 [Thread-17:11308] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:24,861 [Thread-20:12896] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:29,022 [Thread-22:12904] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:38,645 [Thread-24:13068] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:40,496 [Thread-26:13076] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:57,210 [Thread-28:12480] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 15:35:58,882 [Thread-30:12576] [blog.views:40] [views:index] [ERROR]- unbound method distinct_date() must be called with ArticleManager instance as first argument (got nothing instead)
+2017-06-27 16:19:32,973 [Thread-2:9128] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:19:39,193 [Thread-4:14640] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:19:40,724 [Thread-6:14648] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:20:09,671 [Thread-12:14892] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:20:12,746 [Thread-18:14980] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:22:23,457 [Thread-24:13676] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:22:25,529 [Thread-27:11284] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:22:31,617 [Thread-33:15228] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:23:03,509 [Thread-39:15216] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:23:53,141 [Thread-45:7496] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:28:13,384 [Thread-2:11872] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:29:31,160 [Thread-2:9800] [blog.views:40] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'distinct_date_list'
+2017-06-27 16:29:39,059 [Thread-8:14296] [blog.views:40] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'distinct_date_list'
+2017-06-27 16:31:45,911 [Thread-2:15016] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:31:47,627 [Thread-8:2952] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:31:48,632 [Thread-11:10660] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:31:50,655 [Thread-14:15164] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:05,661 [Thread-20:14904] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:07,085 [Thread-26:12280] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:31,108 [Thread-32:10660] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:35,105 [Thread-2:13800] [blog.views:40] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-06-27 16:32:36,891 [Thread-8:15032] [blog.views:40] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-06-27 16:32:42,470 [Thread-14:15236] [blog.views:40] [views:index] [ERROR]- 'Manager' object has no attribute 'distinct_date'
+2017-06-27 16:32:44,111 [Thread-2:10108] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:49,801 [Thread-8:15236] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:32:51,456 [Thread-2:10108] [blog.views:40] [views:index] [ERROR]- type object 'Article' has no attribute 'objects'
+2017-06-27 16:40:27,834 [Thread-2:16268] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:41:35,209 [Thread-14:15636] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:41:49,964 [Thread-19:15320] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:43:02,069 [Thread-25:8268] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:43:03,944 [Thread-28:16240] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:44:25,989 [Thread-33:16216] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:45:14,187 [Thread-2:16076] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-8: ordinal not in range(128)
+2017-06-27 16:52:46,717 [Thread-2:16056] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-6: ordinal not in range(128)
+2017-06-27 16:53:10,138 [Thread-8:14560] [blog.views:40] [views:index] [ERROR]- 'ascii' codec can't encode characters in position 5-6: ordinal not in range(128)
+2017-06-27 17:24:20,684 [Thread-4:16832] [blog.views:59] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:24:23,454 [Thread-11:18288] [blog.views:59] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:28:41,207 [Thread-2:18056] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:28:43,072 [Thread-4:17196] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:27,753 [Thread-81:18724] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:30,214 [Thread-83:19348] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:31,940 [Thread-85:19360] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:33,464 [Thread-87:19368] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:40,869 [Thread-89:19420] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:42,463 [Thread-91:17808] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:44,028 [Thread-93:19316] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:36:48,980 [Thread-95:17532] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:37:44,744 [Thread-97:15324] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:37:47,471 [Thread-99:19056] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:39:21,117 [Thread-115:10936] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:40:08,220 [Thread-117:18304] [blog.views:62] [views:archive] [ERROR]- coercing to Unicode: need string or buffer, NoneType found
+2017-06-27 17:40:09,598 [Thread-2:19396] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:11,872 [Thread-4:19408] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:12,608 [Thread-6:19356] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:13,329 [Thread-8:19236] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:13,943 [Thread-10:17500] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:14,553 [Thread-12:15500] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:17,101 [Thread-14:17612] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:19,986 [Thread-16:18788] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:41,313 [Thread-18:19104] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:42,121 [Thread-20:19112] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:43,631 [Thread-2:15576] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:44,315 [Thread-4:19184] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:44,907 [Thread-6:18304] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:46,984 [Thread-8:18308] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:40:48,513 [Thread-10:15404] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:43:24,927 [Thread-12:14364] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:45:49,079 [Thread-14:19476] [blog.views:62] [views:archive] [ERROR]- Cannot resolve keyword 'date_publish_icontains' into field. Choices are: category, category_id, click_count, comment, content, date_publish, desc, id, is_recommend, tag, title, user, user_id
+2017-06-27 17:47:42,316 [Thread-14:19396] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:47:49,588 [Thread-18:19940] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:47:52,236 [Thread-22:13996] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:48:03,742 [Thread-30:20092] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:48:35,365 [Thread-4:19752] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:48:41,101 [Thread-8:20404] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:49:09,525 [Thread-8:17708] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:49:13,477 [Thread-12:4712] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-27 17:51:08,951 [Thread-2:18912] [blog.views:62] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 09:54:51,434 [Thread-20:7260] [blog.views:71] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 10:01:56,835 [Thread-19:8144] [blog.views:74] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 10:11:21,048 [Thread-2:8876] [blog.views:45] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:23,180 [Thread-4:8884] [blog.views:45] [views:index] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:24,723 [Thread-11:8956] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:26,585 [Thread-13:8968] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:28,476 [Thread-19:9024] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:32,549 [Thread-21:9076] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:35,194 [Thread-23:9124] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:11:37,033 [Thread-25:9184] [blog.views:61] [views:archive] [ERROR]- getPage() takes exactly 2 arguments (1 given)
+2017-06-28 10:12:48,612 [Thread-8:8068] [blog.views:61] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 10:17:27,336 [Thread-20:8644] [blog.views:61] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 10:17:30,765 [Thread-24:8332] [blog.views:61] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'
+2017-06-28 14:09:33,065 [Thread-57:7392] [blog.views:61] [views:archive] [ERROR]- unsupported operand type(s) for +: 'NoneType' and 'unicode'

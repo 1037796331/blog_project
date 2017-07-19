@@ -1,0 +1,1722 @@
+2017-06-20 09:41:31,229 [Thread-3:5136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 09:41:31,331 [Thread-4:5228] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 09:41:32,190 [Thread-5:5772] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-20 13:55:01,733 [Thread-2:7236] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 24, in index
+    return render(request,'index.html',locals())
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2017-06-20 13:56:16,170 [Thread-2:7852] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 24, in index
+    return render(request,'index.html',locals())
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+  File "G:\workspace\blog_project\blog\views.py", line 13, in global_setting
+    'STIE_DESC':settings.SITE_DESC,}
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\conf\__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'SITE_DESC'
+2017-06-20 13:57:02,280 [Thread-8:6176] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 24, in index
+    return render(request,'index.html',locals())
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+  File "G:\workspace\blog_project\blog\views.py", line 13, in global_setting
+    'STIE_DESC':settings.SITE_DESC,}
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\conf\__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'SITE_DESC'
+2017-06-20 13:57:53,881 [Thread-2:7032] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 24, in index
+    return render(request,'index.html',locals())
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 205, in render
+    with context.bind_template(self):
+  File "c:\python27\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\context.py", line 263, in bind_template
+    updates.update(processor(self.request))
+  File "G:\workspace\blog_project\blog\views.py", line 13, in global_setting
+    'SITE_DESC':settings.SITE_DESC,}
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\conf\__init__.py", line 57, in __getattr__
+    val = getattr(self._wrapped, name)
+AttributeError: 'Settings' object has no attribute 'SITE_DESC'
+2017-06-20 13:59:55,411 [Thread-3:8768] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:19,121 [Thread-13:7440] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:19,226 [Thread-18:9520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:58,022 [Thread-20:9256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:58,096 [Thread-21:10140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:59,680 [Thread-3:4696] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:33:59,733 [Thread-4:9824] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:34:01,151 [Thread-6:8416] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:34:01,200 [Thread-7:9916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:01,644 [Thread-12:10236] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:01,710 [Thread-13:9816] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:04,678 [Thread-15:8300] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:04,726 [Thread-16:9256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:11,717 [Thread-18:6040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:11,759 [Thread-19:9872] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:17,068 [Thread-21:9916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 14:37:17,134 [Thread-22:6192] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 18:17:29,982 [Thread-3:15784] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-20 18:17:45,770 [Thread-7:16140] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 213, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 187, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\functional.py", line 238, in inner
+    self._setup()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\functional.py", line 385, in _setup
+    self._wrapped = self._setupfunc()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\auth\middleware.py", line 24, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\auth\middleware.py", line 12, in get_user
+    request._cached_user = auth.get_user(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\auth\__init__.py", line 210, in get_user
+    user_id = _get_user_session_key(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\auth\__init__.py", line 61, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 57, in __getitem__
+    return self._session[key]
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\sessions\backends\base.py", line 207, in _get_session
+    self._session_cache = self.load()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\sessions\backends\db.py", line 35, in load
+    expire_date__gt=timezone.now()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 374, in get
+    num = len(clone)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 232, in __len__
+    self._fetch_all()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1105, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 886, in execute_sql
+    raise original_exception
+ProgrammingError: (1146, u"Table 'blogdb.django_session' doesn't exist")
+2017-06-21 09:56:30,548 [Thread-3:2120] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-21 09:56:30,717 [Thread-4:1656] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-21 09:56:32,289 [Thread-8:6672] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-21 09:57:23,282 [Thread-44:6292] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-21 14:29:33,661 [Thread-3:10384] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-21 17:18:25,302 [Thread-9:11400] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-21 17:18:48,010 [Thread-13:10936] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-21 17:18:51,704 [Thread-15:9872] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-22 09:17:52,732 [Thread-3:5476] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 09:17:53,342 [Thread-4:5480] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-22 09:18:16,582 [Thread-35:5992] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-22 09:53:39,249 [Thread-3:5292] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 10:03:36,453 [Thread-3:3480] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 10:51:00,441 [Thread-68:8304] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-22 10:51:32,897 [Thread-71:8724] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 979, in save_model
+    obj.save()
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 806, in save
+    force_update=force_update, update_fields=update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 836, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 922, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\base.py", line 961, in _do_insert
+    using=using, raw=raw)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\query.py", line 1063, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\models\sql\compiler.py", line 1099, in execute_sql
+    cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 80, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\utils.py", line 65, in execute
+    return self.cursor.execute(sql, params)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\db\backends\mysql\base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 856, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1057, in _read_query_result
+    result.read()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1340, in read
+    first_packet = self.connection._read_packet()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 1014, in _read_packet
+    packet.check_error()
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "G:\workspace\blog_project_venv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2017-06-22 10:54:02,263 [Thread-9:7460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 10:57:01,795 [Thread-3:8272] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 12:09:37,322 [Thread-3:11916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 15:01:44,279 [Thread-20:12624] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 15:01:44,355 [Thread-21:12636] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 15:02:03,305 [Thread-25:13024] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads
+2017-06-22 15:03:18,657 [Thread-31:13032] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/06/1-160922213152-50.jpg
+2017-06-22 15:03:21,796 [Thread-37:12772] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/06/1-160922213152-50.jpg
+2017-06-22 15:04:41,374 [Thread-43:11612] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/06/1-160922213152-50.jpg
+2017-06-22 15:06:23,878 [Thread-2:11332] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2017/06/1-160922213152-50.jpg
+2017-06-22 16:17:19,621 [Thread-3:13924] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:17:19,888 [Thread-4:14492] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:17:25,325 [Thread-5:13344] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:18:59,641 [Thread-2:15424] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:19:00,815 [Thread-4:14428] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:19:09,503 [Thread-9:16032] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:19:42,293 [Thread-14:15952] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/user/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\options.py", line 616, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:20:48,582 [Thread-3:13320] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:20:53,559 [Thread-6:13656] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:20:54,253 [Thread-7:15500] [django.request:170] [base:get_response] [WARNING]- Not Found: /admin'
+2017-06-22 16:20:59,111 [Thread-8:14488] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:23:27,234 [Thread-15:16864] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:23:39,029 [Thread-17:17040] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:23:45,592 [Thread-23:17112] [django.request:170] [base:get_response] [WARNING]- Not Found: /admin1/
+2017-06-22 16:24:44,763 [Thread-2:17036] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:47,674 [Thread-3:17040] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:48,171 [Thread-4:15692] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:49,125 [Thread-5:16620] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:49,565 [Thread-6:13924] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:49,930 [Thread-7:17028] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:50,272 [Thread-8:17000] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:24:59,631 [Thread-11:17272] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:25:11,375 [Thread-16:16608] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 254, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 222, in inner
+    if not self.has_permission(request):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\contrib\admin\sites.py", line 162, in has_permission
+    return request.user.is_active and request.user.is_staff
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+2017-06-22 16:40:06,180 [Thread-3:17096] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:40:33,846 [Thread-25:16504] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/upload/kindeditor
+2017-06-22 16:41:12,236 [Thread-3:16888] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 16:41:30,674 [Thread-17:17136] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/96a72680-5726-11e7-9606-780cb8a7863f.png
+2017-06-22 16:45:18,809 [Thread-9:15712] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/1ea4b01e-5727-11e7-8504-780cb8a7863f.png
+2017-06-22 17:18:50,056 [Thread-3:16596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 17:19:13,727 [Thread-18:18840] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/db8387cf-572b-11e7-8f0a-780cb8a7863f.png
+2017-06-22 17:20:36,043 [Thread-26:18280] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/0c981340-572c-11e7-94d0-780cb8a7863f.png
+2017-06-22 17:37:04,470 [Thread-9:20392] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/59c2cbe1-572e-11e7-8ffa-780cb8a7863f.jpg
+2017-06-22 18:56:27,332 [Thread-10:19956] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/59c2cbe1-572e-11e7-8ffa-780cb8a7863f.jpg
+2017-06-22 18:56:28,926 [Thread-11:22076] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/6/59c2cbe1-572e-11e7-8ffa-780cb8a7863f.jpg
+2017-06-22 19:34:57,529 [Thread-22:23104] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 19:34:57,776 [Thread-23:22568] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-22 19:35:48,117 [Thread-27:22960] [django.request:152] [base:get_response] [WARNING]- Not Found: /index.html
+2017-06-22 19:35:51,229 [Thread-28:23852] [django.request:152] [base:get_response] [WARNING]- Not Found: /p.html
+2017-06-22 19:35:53,727 [Thread-29:2900] [django.request:152] [base:get_response] [WARNING]- Not Found: /c.html
+2017-06-22 19:35:55,668 [Thread-30:24000] [django.request:152] [base:get_response] [WARNING]- Not Found: /b.html
+2017-06-23 09:59:00,270 [Thread-3:2376] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 09:59:01,232 [Thread-4:6972] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-23 15:38:45,167 [Thread-60:1080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:38:45,661 [Thread-61:8712] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:51:01,947 [Thread-63:4776] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:51:57,663 [Thread-3:9016] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:52:03,601 [Thread-9:6760] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:52:03,661 [Thread-10:7424] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:08,828 [Thread-15:9064] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:08,898 [Thread-16:4252] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:10,549 [Thread-21:6328] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:10,592 [Thread-22:5532] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:11,611 [Thread-24:9220] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:11,657 [Thread-25:9224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:12,760 [Thread-27:9232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-23 15:56:12,808 [Thread-28:9236] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:46:32,716 [Thread-13:4212] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:46:34,211 [Thread-15:3544] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:46:34,976 [Thread-32:7048] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-26 09:50:27,420 [Thread-3:4612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:50:27,496 [Thread-4:5232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:50:58,635 [Thread-13:2364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:50:58,707 [Thread-14:7044] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:51:00,637 [Thread-3:4772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 09:51:00,674 [Thread-5:5116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:37:37,812 [Thread-9:8724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:37:37,913 [Thread-10:7480] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:37:57,082 [Thread-14:6780] [django.request:152] [base:get_response] [WARNING]- Not Found: /dmin
+2017-06-26 10:38:48,763 [Thread-69:9000] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:38:51,996 [Thread-75:8996] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:38:52,049 [Thread-76:9208] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:47:43,427 [Thread-7:8396] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:48:10,476 [Thread-35:7476] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:48:51,477 [Thread-61:8556] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:51:37,339 [Thread-6:4608] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 10:51:37,388 [Thread-5:7372] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:28:11,641 [Thread-9:4424] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:28:12,236 [Thread-10:5864] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-26 16:29:08,908 [Thread-3:8572] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:31:09,384 [Thread-3:5224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:31:09,434 [Thread-4:2496] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:31:34,552 [Thread-3:6412] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 16:31:34,632 [Thread-4:7400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:00:56,062 [Thread-9:6408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:11:35,444 [Thread-11:6532] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:11:35,529 [Thread-12:7216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:41,026 [Thread-17:6388] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:41,101 [Thread-18:6892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:42,289 [Thread-23:4256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:42,342 [Thread-24:3396] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:42,997 [Thread-26:7192] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:43,039 [Thread-27:3768] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:43,678 [Thread-29:3040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:43,739 [Thread-30:8160] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:47,392 [Thread-33:9136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:12:51,967 [Thread-35:5048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:15:23,105 [Thread-38:6104] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:15:48,003 [Thread-41:8876] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:16:57,927 [Thread-43:7364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:16:59,986 [Thread-45:5796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:17:17,634 [Thread-47:7080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:17:19,108 [Thread-49:9272] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:18,704 [Thread-52:7696] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:19,438 [Thread-54:4432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:19,921 [Thread-56:6708] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:20,161 [Thread-58:7288] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:20,335 [Thread-60:3880] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:20,585 [Thread-62:5256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:20,744 [Thread-64:4788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:20,901 [Thread-66:3060] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:21,069 [Thread-68:7712] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:21,257 [Thread-70:8328] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:21,539 [Thread-72:7156] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:22,101 [Thread-74:9036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:22,301 [Thread-76:6524] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:22,457 [Thread-78:2832] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:31,061 [Thread-80:9500] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:31,641 [Thread-82:4180] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:31,835 [Thread-84:3136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:32,213 [Thread-87:9368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:32,418 [Thread-89:3640] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:32,726 [Thread-91:6464] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:32,914 [Thread-93:4796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:33,210 [Thread-95:7692] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:33,407 [Thread-97:7360] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:33,690 [Thread-99:7848] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:33,851 [Thread-101:9616] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:34,033 [Thread-103:4008] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:34,355 [Thread-105:2276] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:34,535 [Thread-107:6368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:34,832 [Thread-109:6948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:35,141 [Thread-111:2132] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:53,839 [Thread-3:10080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:54,799 [Thread-5:8304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:55,305 [Thread-7:4436] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:55,526 [Thread-9:1860] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:55,862 [Thread-11:4824] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:56,171 [Thread-13:7496] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:56,484 [Thread-15:7356] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:25:56,779 [Thread-17:3036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:10,755 [Thread-3:8104] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:46,898 [Thread-5:7240] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:46,944 [Thread-6:8116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:47,655 [Thread-11:8592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:47,733 [Thread-12:6888] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:48,482 [Thread-14:8432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:26:49,394 [Thread-16:9116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:05,305 [Thread-22:5048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:05,372 [Thread-23:9760] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:06,062 [Thread-25:8468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:06,420 [Thread-27:8868] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:06,463 [Thread-28:5300] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:07,926 [Thread-32:9396] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:07,967 [Thread-33:6680] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:09,651 [Thread-35:9460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:09,703 [Thread-36:8400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:27:10,806 [Thread-38:1052] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:45,282 [Thread-43:4388] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:45,885 [Thread-45:8032] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:46,105 [Thread-47:7220] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:47,227 [Thread-49:9104] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:48,401 [Thread-52:7608] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:28:49,309 [Thread-54:4816] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:33,651 [Thread-136:2116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:36,647 [Thread-138:2220] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:36,694 [Thread-139:8516] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:38,960 [Thread-144:4400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:39,003 [Thread-145:3332] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:39,984 [Thread-147:7792] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:30:40,032 [Thread-148:6720] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:00,099 [Thread-153:5216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:00,142 [Thread-154:7512] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:01,140 [Thread-156:3872] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:01,183 [Thread-157:8752] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:11,033 [Thread-163:4080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:11,095 [Thread-164:9828] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:12,321 [Thread-171:6624] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:12,381 [Thread-172:8092] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:13,568 [Thread-174:7624] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:13,611 [Thread-175:4756] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:14,413 [Thread-177:2232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:14,450 [Thread-178:6540] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:15,365 [Thread-180:6764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:15,400 [Thread-181:3164] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:16,308 [Thread-183:8988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:17,125 [Thread-185:7148] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:17,158 [Thread-186:632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:29,059 [Thread-190:7700] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:29,107 [Thread-191:10228] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:30,125 [Thread-193:2520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:30,161 [Thread-194:9520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:33,276 [Thread-198:7508] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:33,322 [Thread-199:7676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:33,941 [Thread-201:7256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:33,983 [Thread-202:8832] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:34,608 [Thread-204:4268] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:34,642 [Thread-205:2080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:35,441 [Thread-207:5836] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:31:35,473 [Thread-208:9376] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:02,658 [Thread-212:4724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:02,701 [Thread-213:8632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:04,186 [Thread-215:6944] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:04,250 [Thread-216:472] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:06,256 [Thread-218:5620] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:33:06,296 [Thread-219:4596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:20,799 [Thread-223:8796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:20,875 [Thread-224:4300] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:22,655 [Thread-228:6952] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:22,711 [Thread-229:4840] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:34,638 [Thread-233:7860] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:34,701 [Thread-234:9488] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:35,688 [Thread-236:7680] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:35,729 [Thread-237:8556] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:48,096 [Thread-242:1148] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:48,174 [Thread-243:2488] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:49,446 [Thread-245:3740] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:49,496 [Thread-246:4224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:56,973 [Thread-251:4860] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:57,019 [Thread-252:7236] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:58,173 [Thread-257:8172] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:34:58,230 [Thread-258:4192] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:35:03,967 [Thread-3:4432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:35:04,009 [Thread-4:9532] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:35:11,783 [Thread-3:9368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:07,007 [Thread-9:2632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:07,061 [Thread-10:4600] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:08,496 [Thread-12:8428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:08,543 [Thread-13:5584] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:09,559 [Thread-15:7048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:09,598 [Thread-16:2128] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:11,201 [Thread-18:9284] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:11,244 [Thread-19:9632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:37:58,967 [Thread-24:8468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:46,782 [Thread-79:9364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:50,492 [Thread-83:5140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:50,543 [Thread-84:9956] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:52,216 [Thread-86:7532] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:53,076 [Thread-88:5108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:39:56,799 [Thread-90:8660] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:40:33,071 [Thread-92:5620] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:40:34,473 [Thread-94:9100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:46:55,039 [Thread-96:7136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:04,387 [Thread-3:5820] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:06,380 [Thread-5:6764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:07,223 [Thread-7:6444] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:08,135 [Thread-9:6636] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:09,016 [Thread-11:2876] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:09,634 [Thread-13:7460] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:10,216 [Thread-15:6056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-26 17:48:10,665 [Thread-17:6204] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:16,493 [Thread-3:6676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:17,043 [Thread-4:4472] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-27 09:25:20,131 [Thread-6:3632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:20,177 [Thread-7:5212] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:21,428 [Thread-9:2996] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:22,329 [Thread-11:3812] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:22,944 [Thread-13:2468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:23,602 [Thread-15:1664] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:24,125 [Thread-17:4940] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:24,690 [Thread-19:7136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:51,572 [Thread-21:1988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:53,128 [Thread-23:4788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:25:54,217 [Thread-25:6464] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:08,625 [Thread-31:6408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:14,891 [Thread-33:6472] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:16,197 [Thread-35:4992] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:17,012 [Thread-37:6772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:18,085 [Thread-39:4788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:29,529 [Thread-41:4084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:30,799 [Thread-43:5524] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:31,772 [Thread-45:5428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:32,552 [Thread-47:3252] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:33,165 [Thread-49:3316] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:33,697 [Thread-51:1596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:34,270 [Thread-53:4992] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:34,963 [Thread-55:5764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:35,826 [Thread-57:2268] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:36,605 [Thread-59:6964] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:37,134 [Thread-61:4632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:37,802 [Thread-63:1664] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:38,502 [Thread-65:2892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:26:41,668 [Thread-67:4084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:43:41,150 [Thread-69:5948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:43:50,286 [Thread-71:8080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:46:43,338 [Thread-73:5452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:41,059 [Thread-78:8220] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:42,474 [Thread-80:3892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:43,683 [Thread-82:8264] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:44,480 [Thread-84:8476] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:45,226 [Thread-86:8244] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:46,099 [Thread-88:7536] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:46,710 [Thread-90:7604] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:47,283 [Thread-92:7280] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:48,006 [Thread-94:8360] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:48,614 [Thread-96:8500] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:49,255 [Thread-98:7388] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:49,927 [Thread-100:8748] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:51,039 [Thread-102:8532] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:51,717 [Thread-104:8560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:53,589 [Thread-106:8596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:55:57,713 [Thread-108:8328] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:00,438 [Thread-110:8424] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:01,688 [Thread-112:6592] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:02,582 [Thread-114:7412] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:10,760 [Thread-116:1988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:12,891 [Thread-118:7832] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:13,700 [Thread-120:8804] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:14,470 [Thread-122:8796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:15,789 [Thread-124:8724] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:16,890 [Thread-126:8352] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:18,046 [Thread-128:7764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:19,584 [Thread-130:8408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:20,483 [Thread-132:8892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:21,421 [Thread-134:7736] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:22,203 [Thread-136:8920] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:23,296 [Thread-138:8188] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:24,102 [Thread-140:8632] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:24,812 [Thread-142:8280] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:25,601 [Thread-144:8428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:26,319 [Thread-146:8840] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:27,065 [Thread-148:8784] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:28,002 [Thread-150:8992] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:29,086 [Thread-152:8056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:29,851 [Thread-154:8488] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:31,176 [Thread-156:8400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:35,779 [Thread-158:8760] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:36,559 [Thread-160:8912] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:37,308 [Thread-162:8648] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:37,996 [Thread-164:9044] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:38,832 [Thread-166:9152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:39,553 [Thread-168:4152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:40,244 [Thread-170:9204] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:40,996 [Thread-172:7748] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:41,707 [Thread-174:8124] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:42,680 [Thread-176:9024] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:43,711 [Thread-178:4560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 09:56:45,186 [Thread-180:2520] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:09:29,565 [Thread-3:5244] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:09:31,647 [Thread-5:7296] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:09:33,134 [Thread-7:8504] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:09:34,453 [Thread-9:8952] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:09:36,115 [Thread-11:2052] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:41:09,979 [Thread-13:4084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:41:10,990 [Thread-15:4604] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:42:44,204 [Thread-17:9972] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:42:45,750 [Thread-19:9996] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:43:04,411 [Thread-21:10048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:43:07,869 [Thread-23:10100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:43:09,716 [Thread-25:10124] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 10:43:10,795 [Thread-27:10160] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:44:35,203 [Thread-3:11872] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:45:41,974 [Thread-7:11516] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:45:42,065 [Thread-11:11064] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:45:48,867 [Thread-29:10640] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:46:17,305 [Thread-35:11992] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:46:23,276 [Thread-41:11840] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 13:51:56,230 [Thread-3:11364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:32:02,132 [Thread-9:5820] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:32:18,701 [Thread-14:11864] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:32:47,361 [Thread-16:11636] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:32:49,489 [Thread-18:11712] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:24,898 [Thread-21:12900] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:29,112 [Thread-23:12956] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:38,690 [Thread-25:13072] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:40,529 [Thread-27:13080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:57,275 [Thread-29:12304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 15:35:58,923 [Thread-31:10916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:19:33,167 [Thread-3:14436] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:19:39,234 [Thread-5:14644] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:19:40,798 [Thread-7:14652] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:19:40,854 [Thread-8:14732] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:20:09,723 [Thread-13:14896] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:20:09,805 [Thread-14:14900] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:20:12,780 [Thread-19:14988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:20:12,849 [Thread-20:15036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:23,559 [Thread-25:15116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:23,723 [Thread-26:14948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:25,576 [Thread-28:14848] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:25,641 [Thread-29:15176] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:31,664 [Thread-34:15232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:22:31,742 [Thread-35:15168] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:23:03,565 [Thread-40:14764] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:23:03,697 [Thread-41:11884] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:23:53,190 [Thread-46:12448] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:23:53,290 [Thread-47:14332] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:28:13,490 [Thread-3:15108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:29:31,236 [Thread-3:10356] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:29:39,096 [Thread-9:14400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:29:39,141 [Thread-10:14172] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:45,977 [Thread-3:14604] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:46,086 [Thread-4:12240] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:47,676 [Thread-9:15228] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:47,723 [Thread-10:10108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:48,681 [Thread-12:15324] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:48,737 [Thread-13:14688] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:31:50,703 [Thread-15:14196] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:05,710 [Thread-21:14368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:05,786 [Thread-22:15016] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:07,124 [Thread-27:10676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:07,184 [Thread-28:15356] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:31,153 [Thread-33:15224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:31,252 [Thread-34:14972] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:35,165 [Thread-3:12540] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:35,224 [Thread-4:14796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:36,938 [Thread-9:13548] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:37,017 [Thread-10:10108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:42,530 [Thread-15:13792] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:42,602 [Thread-16:15352] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:44,191 [Thread-3:15216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:44,285 [Thread-4:14648] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:49,871 [Thread-9:13792] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:49,928 [Thread-10:15352] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:51,503 [Thread-3:15216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:32:51,565 [Thread-4:14648] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:40:27,903 [Thread-3:16272] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:40:27,984 [Thread-4:16276] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:41:35,243 [Thread-15:15728] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:41:35,326 [Thread-16:15628] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:43:02,108 [Thread-26:16216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:43:02,184 [Thread-27:15516] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:43:03,987 [Thread-29:16252] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:43:04,033 [Thread-30:16256] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:44:26,039 [Thread-34:15516] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:44:26,131 [Thread-35:16152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:44:29,658 [Thread-3:15692] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:44:29,720 [Thread-4:15760] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:45:12,898 [Thread-8:15968] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:45:12,983 [Thread-9:16204] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:45:14,240 [Thread-3:16080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:45:14,309 [Thread-4:15960] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:13,848 [Thread-8:15468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:31,348 [Thread-27:13432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:33,282 [Thread-3:14868] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:33,361 [Thread-4:14396] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:45,286 [Thread-9:11856] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:45,385 [Thread-10:11736] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:46,775 [Thread-3:11316] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:52:46,823 [Thread-4:15144] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:53:10,187 [Thread-9:16352] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:53:10,288 [Thread-10:15836] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:53:13,104 [Thread-3:16152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:53:13,161 [Thread-4:16140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:54:48,492 [Thread-9:15852] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:54:48,565 [Thread-10:14612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:54:50,625 [Thread-3:16028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:54:50,684 [Thread-4:14448] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 16:54:52,177 [Thread-11:16084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:15:58,744 [Thread-7:17816] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 42, in index
+    return render(request, 'index.html',locals())
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 207, in render
+    return self._render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\base.py", line 957, in render_annotated
+    return self.render(context)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\template\defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\urls\base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\urls\resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+NoReverseMatch: Reverse for 'archive' not found. 'archive' is not a valid view function or pattern name.
+2017-06-27 17:17:19,881 [Thread-7:17508] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:17:19,976 [Thread-12:17456] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:17:21,960 [Thread-27:16136] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:24:20,766 [Thread-5:17772] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:24:23,503 [Thread-12:17612] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:28:41,296 [Thread-3:18332] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:28:43,124 [Thread-5:18168] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:31:41,607 [Thread-3:18056] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:31:46,670 [Thread-9:15960] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:32:25,647 [Thread-11:16824] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:15,270 [Thread-62:18216] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:15,365 [Thread-63:19032] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:17,076 [Thread-65:19040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:17,127 [Thread-66:19036] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:19,457 [Thread-71:19084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:23,677 [Thread-73:19184] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:24,829 [Thread-75:19196] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:24,875 [Thread-76:19200] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:25,582 [Thread-78:17612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:26,390 [Thread-80:19296] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:36:27,799 [Thread-82:19252] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:30,256 [Thread-84:19352] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:31,996 [Thread-86:19364] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:33,529 [Thread-88:19356] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:40,924 [Thread-90:19432] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:42,496 [Thread-92:17236] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:44,076 [Thread-94:19436] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:36:49,023 [Thread-96:12564] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:37:44,796 [Thread-98:19052] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:37:47,502 [Thread-100:12852] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:38:52,625 [Thread-106:19104] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/base.html
+2017-06-27 17:39:10,742 [Thread-108:19364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:39:15,658 [Thread-110:17500] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:39:16,696 [Thread-112:16976] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:39:18,269 [Thread-114:18652] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:39:21,180 [Thread-116:18720] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:08,259 [Thread-118:18620] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:09,663 [Thread-3:19324] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:11,917 [Thread-5:18856] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:12,660 [Thread-7:19248] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:13,368 [Thread-9:19212] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:14,036 [Thread-11:19380] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:14,604 [Thread-13:16976] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:17,145 [Thread-15:18560] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:20,030 [Thread-17:19164] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:41,362 [Thread-19:16612] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:42,180 [Thread-21:17864] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:43,690 [Thread-3:17708] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:44,359 [Thread-5:16880] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:44,944 [Thread-7:18620] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:47,036 [Thread-9:18456] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:40:48,563 [Thread-11:16316] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:43:24,963 [Thread-13:17648] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:45:49,134 [Thread-15:19524] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:30,526 [Thread-3:19084] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:32,698 [Thread-5:18560] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:34,799 [Thread-7:19800] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:36,390 [Thread-9:19860] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:38,177 [Thread-11:19596] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:39,980 [Thread-13:18580] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:42,384 [Thread-15:19520] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:47,766 [Thread-17:17500] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:49,640 [Thread-19:19948] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:51,167 [Thread-21:4712] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:52,272 [Thread-23:16136] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:54,155 [Thread-25:16460] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:56,621 [Thread-27:17480] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:47:58,719 [Thread-29:19916] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:03,788 [Thread-31:20088] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:10,444 [Thread-33:19996] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:31,713 [Thread-35:19812] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:33,441 [Thread-3:20232] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:35,417 [Thread-5:20348] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:38,226 [Thread-7:20436] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:41,148 [Thread-9:19724] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:42,976 [Thread-11:20380] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:48:44,605 [Thread-13:19464] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:04,197 [Thread-3:20444] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:06,299 [Thread-5:14332] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:07,519 [Thread-7:17948] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:09,571 [Thread-9:18788] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:11,496 [Thread-11:19948] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:49:13,538 [Thread-13:13996] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:51:09,038 [Thread-3:20352] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 17:51:54,450 [Thread-5:20080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 17:51:56,915 [Thread-7:19936] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-27 19:01:08,063 [Thread-9:20888] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:10,355 [Thread-11:19756] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:11,180 [Thread-13:20932] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:12,688 [Thread-15:21284] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:13,546 [Thread-17:19328] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:14,141 [Thread-19:21464] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:14,657 [Thread-21:20968] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:16,224 [Thread-23:20392] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:17,114 [Thread-25:17948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:17,809 [Thread-27:16612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:18,562 [Thread-29:21016] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-27 19:01:21,118 [Thread-31:21220] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 09:54:38,250 [Thread-6:6452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 09:54:38,549 [Thread-7:6716] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 09:54:38,753 [Thread-8:6972] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-28 09:54:41,717 [Thread-10:1596] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:43,726 [Thread-12:7176] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:43,760 [Thread-13:7180] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:46,009 [Thread-15:7188] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:47,483 [Thread-17:7196] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:49,457 [Thread-19:7220] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 09:54:51,512 [Thread-21:7264] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:42,901 [Thread-3:7984] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:01:46,255 [Thread-9:7828] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:47,930 [Thread-11:7080] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:47,976 [Thread-12:8072] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:49,660 [Thread-14:7212] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:51,434 [Thread-16:7408] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:55,240 [Thread-18:8184] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:01:56,897 [Thread-20:7148] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:02:01,155 [Thread-22:7732] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:04:11,858 [Thread-3:7968] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:11:21,105 [Thread-3:8880] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:11:23,269 [Thread-10:8952] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:11:24,819 [Thread-12:8960] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:11:26,640 [Thread-14:8972] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:11:28,545 [Thread-20:9028] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:11:32,595 [Thread-22:9080] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:11:35,244 [Thread-24:9128] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:11:37,092 [Thread-26:9188] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:12:46,196 [Thread-3:8408] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:12:48,655 [Thread-9:8312] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:12:51,519 [Thread-11:7372] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:12:53,638 [Thread-13:7392] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:12:55,285 [Thread-15:8728] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:13:05,785 [Thread-3:8260] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:13:07,421 [Thread-5:6452] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:13:09,548 [Thread-8:6188] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:13:11,078 [Thread-10:8524] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:20,401 [Thread-12:7924] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:21,832 [Thread-14:9104] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:23,711 [Thread-17:8992] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:25,486 [Thread-19:8948] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:27,413 [Thread-21:9124] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:29,203 [Thread-23:8424] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:30,812 [Thread-25:8220] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:32,266 [Thread-27:8488] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:33,813 [Thread-29:9032] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 10:17:44,571 [Thread-31:6452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:48,184 [Thread-33:8504] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:50,032 [Thread-35:9200] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:51,438 [Thread-37:9080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:53,033 [Thread-39:8160] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:54,381 [Thread-41:5448] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:55,482 [Thread-43:8404] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:56,072 [Thread-45:8396] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 10:17:56,677 [Thread-47:9064] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:09:27,203 [Thread-53:12164] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:09:30,194 [Thread-56:9988] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:09:33,414 [Thread-58:10224] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:09:36,555 [Thread-60:8388] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:09:39,115 [Thread-62:8572] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:09:40,924 [Thread-64:11876] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:16:54,344 [Thread-66:11992] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:16:56,282 [Thread-68:12184] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:16:57,372 [Thread-70:10392] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:16:58,891 [Thread-72:1204] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:16:59,959 [Thread-74:11216] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:17:01,476 [Thread-76:12240] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:17:03,052 [Thread-78:9336] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:17:04,809 [Thread-80:9904] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:17:06,325 [Thread-82:7356] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:27:50,584 [Thread-3:12328] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 14:30:40,767 [Thread-61:12840] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:34:03,881 [Thread-3:7884] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:34:03,933 [Thread-4:12576] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:38:03,976 [Thread-3:9424] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:38:04,046 [Thread-4:12452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:40:03,956 [Thread-6:12344] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:40:04,042 [Thread-7:9796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:40:07,834 [Thread-9:12788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:40:07,894 [Thread-10:12700] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:52:39,821 [Thread-12:9312] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:52:39,891 [Thread-13:12708] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:52:41,263 [Thread-15:8784] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 14:52:41,325 [Thread-16:11868] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:33,331 [Thread-3:14676] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:36,688 [Thread-5:14596] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:36,730 [Thread-6:15336] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:39,562 [Thread-8:14500] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 15:47:39,609 [Thread-9:14564] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 15:47:40,732 [Thread-11:14980] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:40,776 [Thread-12:14100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:42,338 [Thread-14:6152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:43,194 [Thread-16:14656] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:44,394 [Thread-18:14496] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:44,946 [Thread-20:14976] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:45,658 [Thread-22:14784] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:46,367 [Thread-24:14012] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:47,474 [Thread-26:14348] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:49,733 [Thread-28:10248] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:50,971 [Thread-30:11648] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:51,549 [Thread-32:14984] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:47:53,105 [Thread-34:14420] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:37,335 [Thread-3:15072] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:40,078 [Thread-9:14100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:40,114 [Thread-10:12916] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:41,381 [Thread-12:14804] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:42,585 [Thread-14:13948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:43,905 [Thread-16:14644] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:44,961 [Thread-18:15332] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:45,809 [Thread-20:14788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:47,710 [Thread-22:14088] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:48,806 [Thread-24:13876] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:49,494 [Thread-26:14428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:50,783 [Thread-28:14820] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:48:51,905 [Thread-30:15228] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:21,973 [Thread-3:15976] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:23,895 [Thread-5:16080] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:23,943 [Thread-6:16084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:25,407 [Thread-8:16240] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:25,450 [Thread-9:16244] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:26,598 [Thread-11:16352] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:27,440 [Thread-13:16364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:27,471 [Thread-14:16368] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:28,877 [Thread-16:16360] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:28,930 [Thread-17:15436] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:29,788 [Thread-19:10260] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:29,825 [Thread-20:16380] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:30,805 [Thread-22:15060] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:31,855 [Thread-24:1408] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:31,900 [Thread-25:14796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:32,763 [Thread-27:15432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:33,618 [Thread-29:14636] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:35,160 [Thread-31:15468] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:36,211 [Thread-33:15528] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:36,878 [Thread-35:15536] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:38,394 [Thread-37:15428] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:39,361 [Thread-39:11224] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:45,701 [Thread-41:15040] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:47,206 [Thread-43:15376] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:47,996 [Thread-45:15384] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 15:59:57,627 [Thread-47:13968] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 15:59:59,184 [Thread-49:15772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:00:40,601 [Thread-51:15480] [django.request:152] [base:get_response] [WARNING]- Not Found: /andmin
+2017-06-28 16:06:25,918 [Thread-162:14736] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:27,875 [Thread-164:12068] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:27,940 [Thread-165:15120] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:29,065 [Thread-168:15684] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:29,655 [Thread-170:15452] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:31,023 [Thread-172:14788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:06:32,575 [Thread-173:16368] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-06-28 16:06:34,546 [Thread-174:15588] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-06-28 16:06:39,295 [Thread-181:14960] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:07:13,971 [Thread-200:16172] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:07:49,829 [Thread-208:16160] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-06-28 16:07:51,858 [Thread-210:16000] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:08:22,749 [Thread-223:15120] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:08:24,782 [Thread-226:15784] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:08:25,790 [Thread-227:15944] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/portal.php
+2017-06-28 16:08:28,151 [Thread-228:10648] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/portal.php
+2017-06-28 16:08:36,244 [Thread-234:15836] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:08:43,615 [Thread-240:12968] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:08:46,874 [Thread-242:15836] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:10:50,602 [Thread-246:17112] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:11:12,617 [Thread-250:17232] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:11:23,505 [Thread-254:17360] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:11:30,503 [Thread-257:16388] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:11:42,217 [Thread-260:16208] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:12:07,164 [Thread-264:16580] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:08,901 [Thread-268:16484] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:09,950 [Thread-270:14100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:10,552 [Thread-272:16608] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:16,555 [Thread-274:16668] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:17,348 [Thread-276:13436] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:18,362 [Thread-278:16696] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:19,200 [Thread-280:16704] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:20,917 [Thread-282:16756] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:12:21,726 [Thread-284:16800] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:14:42,296 [Thread-292:17204] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:17:11,638 [Thread-297:16692] [django.request:135] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /comment/post/
+Traceback (most recent call last):
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\exception.py", line 41, in inner
+    response = get_response(request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\workspace\blog_project_venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\workspace\blog_project\blog\views.py", line 130, in comment_post
+    return redirect(request.META['HTTP_REFERER'])
+NameError: global name 'redirect' is not defined
+2017-06-28 16:21:34,157 [Thread-3:17108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:21:35,483 [Thread-5:17128] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:21:36,243 [Thread-7:16976] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:21:37,096 [Thread-9:16744] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:21:37,930 [Thread-11:15556] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:18,885 [Thread-3:14116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:23,775 [Thread-5:17500] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:24,915 [Thread-7:17508] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:24,953 [Thread-8:17512] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:26,092 [Thread-10:17560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:26,127 [Thread-11:17564] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:22:27,305 [Thread-13:17572] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:43,756 [Thread-7:17808] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:45,602 [Thread-9:17892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:46,381 [Thread-11:17948] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:46,901 [Thread-13:17784] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:48,250 [Thread-15:17108] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:49,098 [Thread-17:15900] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:24:50,257 [Thread-19:17156] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:44:58,607 [Thread-21:17336] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:44:58,644 [Thread-22:15604] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:02,915 [Thread-24:16156] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:02,963 [Thread-25:18004] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:04,207 [Thread-27:18028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:04,243 [Thread-28:18364] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:05,124 [Thread-30:17852] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:05,151 [Thread-31:15744] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:59,076 [Thread-33:15900] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:45:59,118 [Thread-34:9624] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:00,446 [Thread-36:17768] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:00,486 [Thread-37:17064] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:04,990 [Thread-39:18120] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:05,030 [Thread-40:18112] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:05,686 [Thread-42:16804] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:05,734 [Thread-43:16296] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:06,387 [Thread-45:15228] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:06,959 [Thread-47:17740] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:07,007 [Thread-48:7512] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:07,575 [Thread-50:15376] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:08,467 [Thread-52:18316] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:11,157 [Thread-54:18232] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:46:55,460 [Thread-56:15348] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:47:20,448 [Thread-58:15960] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:48:09,733 [Thread-61:14664] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-28 16:48:35,630 [Thread-64:17284] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:48:37,056 [Thread-66:17708] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:48:38,453 [Thread-68:17168] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:48:39,334 [Thread-70:16804] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:48:58,131 [Thread-80:17896] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:48:58,779 [Thread-81:16604] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:50:02,917 [Thread-97:18304] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:04,084 [Thread-99:18100] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:04,961 [Thread-101:17028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:05,713 [Thread-103:17988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:06,690 [Thread-105:17772] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:07,486 [Thread-107:16456] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:08,371 [Thread-109:14664] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:09,059 [Thread-111:16484] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:09,684 [Thread-113:6700] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:50:10,433 [Thread-115:18416] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:06,043 [Thread-117:18028] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:07,726 [Thread-7:18168] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:09,098 [Thread-14:16900] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:10,076 [Thread-16:18308] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:10,707 [Thread-18:17432] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:12,642 [Thread-20:17984] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:13,671 [Thread-22:14116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:52:14,660 [Thread-24:6616] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 16:57:03,051 [Thread-4:16828] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 16:57:08,290 [Thread-11:18276] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:00:04,540 [Thread-28:15612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 17:00:06,272 [Thread-30:17804] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:00:14,035 [Thread-39:17740] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:00:20,365 [Thread-42:14664] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 17:00:21,500 [Thread-44:16632] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:01:59,068 [Thread-3:18892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-28 17:02:02,183 [Thread-5:18900] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:02:02,217 [Thread-6:18908] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:02:17,730 [Thread-9:19244] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:02:17,806 [Thread-11:19252] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:02:42,213 [Thread-18:17732] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:03:01,694 [Thread-23:17988] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-28 17:03:01,773 [Thread-24:17128] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-29 14:01:59,904 [Thread-8:12564] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-29 14:02:00,346 [Thread-9:8344] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-06-29 14:02:11,144 [Thread-11:12996] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-29 14:02:14,611 [Thread-14:12968] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-29 14:02:16,344 [Thread-16:11416] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-29 14:02:22,621 [Thread-19:11600] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-29 14:02:22,674 [Thread-20:5296] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-29 14:02:24,101 [Thread-22:13292] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-06-29 14:02:25,500 [Thread-25:10644] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-06-29 16:13:41,474 [Thread-2:16780] [django.request:152] [base:get_response] [WARNING]- Not Found: /article/js/nav.js
+2017-07-13 14:00:23,017 [Thread-7:4144] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 14:00:23,802 [Thread-9:3800] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 14:00:24,141 [Thread-26:5792] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-07-13 16:33:26,329 [Thread-38:9792] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:27,720 [Thread-40:9804] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:29,351 [Thread-42:9816] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:30,598 [Thread-44:9868] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:31,946 [Thread-46:9896] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:34,134 [Thread-48:9980] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:37,467 [Thread-50:10020] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:39,783 [Thread-52:10048] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:40,986 [Thread-54:10084] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:42,424 [Thread-56:10152] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:44,042 [Thread-58:10188] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:44,891 [Thread-60:10196] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:33:46,660 [Thread-62:10236] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-13 16:34:34,384 [Thread-64:6784] [django.request:152] [base:get_response] [WARNING]- Not Found: /archive/js/nav.js
+2017-07-14 14:02:03,380 [Thread-3:8140] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-14 14:02:03,578 [Thread-4:8400] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-14 14:02:04,091 [Thread-5:8240] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-07-14 15:35:49,625 [Thread-15:4136] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-14 15:36:02,891 [Thread-17:9588] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-07-14 15:36:02,923 [Thread-18:10072] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
